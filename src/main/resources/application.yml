@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: 'jdbc:postgresql://localhost:5432/helpdesk_db'
+    username: admin
+    password: admin
+    driver-class-name: org.postgresql.Driver
+
+    jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
+
+# adminer is already using port 8000
+server:
+  port: 8001
+
+
+    
